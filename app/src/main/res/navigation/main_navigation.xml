@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.android.wonderlabs.ui.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" />
+
+    <fragment
+        android:id="@+id/quarterDetailsFragment"
+        android:name="com.android.wonderlabs.ui.QuarterDetailsFragment"
+        android:label="optimize_fragment"
+        tools:layout="@layout/quarter_details_fragment" />
+</navigation>
